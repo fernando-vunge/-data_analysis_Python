@@ -3,9 +3,12 @@ import matplotlib.pyplot as plit
 
 from utils_module.utils import *
 
-tdata = pand.read_csv('datasets/titanic_dataset.csv')
+tdata = pand.read_csv('datasets/titanic_dataset.csv', index_col=0, parse_dates=True)
 
-tdata.plot()
+
+
+
+
 
 '''
 tdata.loc[tdata['Age'].isna(), 'Name'] = 'anonymous'
