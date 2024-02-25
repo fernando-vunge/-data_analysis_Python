@@ -16,13 +16,13 @@ Ferramentas: [Python](), [Pandas](), [ArquivosCSV]()
 ### Verifique que tem o `Python 3 ou superior` e o `pip` instalado
 
 ### Instale o Pandas
-
 ```
 pip install python
 
+```
 
+### Instale o MatplotLib
+```
+pip install matplotlib
 
-
-
-
-pip install pandas
+```

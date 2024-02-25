@@ -1,15 +1,16 @@
 import pandas as pand
-from utils_module.utils import *
+import matplotlib.pyplot as plit
 
+from utils_module.utils import *
 
 tdata = pand.read_csv('datasets/titanic_dataset.csv')
 
-ln()
-print(tdata.iloc[0:9, 3:5])
-ln()
-print(tdata.loc[(tdata['Age'] < 18) & tdata['Sex'].isin(['male']), ['Name','Sex','Age-']])
-ln()
+tdata.plot()
 
+'''
+tdata.loc[tdata['Age'].isna(), 'Name'] = 'anonymous'
+
+print(tdata.loc[tdata['Age'].isna(), ['Name','Age']])
 
 num_females = tdata[tdata['Sex'].isin(["female"])].shape[0]
 num_males = tdata[tdata['Sex'].isin(["male"])].shape[0]
@@ -20,3 +21,4 @@ column([
     f"Numero de homens : {num_males}",
     f"Numero de passageiros com idade registada : {num_ageed}",
 ])
+'''
