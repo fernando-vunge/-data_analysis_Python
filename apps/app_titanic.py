@@ -1,7 +1,16 @@
-
-'''
 import pandas as pand
 import matplotlib.pyplot as plit
+
+NAME = "App Titanic"
+def get_name():
+    return NAME
+
+def main():
+    #self.air_quality = pand.read_csv('../datasets/air_quality_no2.csv', index_col=0, parse_dates=True)
+    print("ola titanic")
+    #print(self.air_quality.head())
+'''
+
 
 tdata = pand.read_csv('datasets/titanic_dataset.csv', index_col=0, parse_dates=True)
 tdata.loc[tdata['Age'].isna(), 'Name'] = 'anonymous'

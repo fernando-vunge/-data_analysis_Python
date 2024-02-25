@@ -1,15 +1,21 @@
-from apps.app_no2 import AppNO2
-from apps.utils_module.utils import *
+from apps import app_no2, app_titanic
+from apps.utils_module.utils import column
 
+apps= [app_no2, app_titanic]
 
-apps = {
-    1: AppNO2.main
-}
+# Menu
+menu = []
+for i in range(0, len(apps)):
+    app = apps[i]
+    menu.append(f"[{i + 1}] - {str.upper(app.get_name())}")
 
-column([
-    f"[1] - {AppNO2.name}"
-])
+column(menu)
+
 
 app_choice = int(input("Escolha: "))
 
-apps.get(app_choice, lambda: print("Opcao Invalida"))
+if (app_choice >= 1) or (app_choice <= len(apps)):
+    apps[app_choice - 1].main()
+else:
+    print("Opacao Invalida")
+    exit(-1)
