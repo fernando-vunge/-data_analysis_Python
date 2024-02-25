@@ -1,11 +1,11 @@
-# Usando a biblioteca **Pandas** do **Python** para explorar e analisar **dados do embarque do Titanic**
+# Usando a biblioteca **Pandas** e **Matplotlib** do **Python** para explorar e analisar **datasets**
 
 Esse repositorio serve como referencia da biblioteca[Pandas](https://pandas.pydata.org/) / onde fiz alguns estudos (*auto didaticos*) sobre ciencia de dados em **Python**
 
 
 
 > Autor: [Fernando Vunge]()
-Ferramentas: [Python](), [Pandas](), [ArquivosCSV]()
+Ferramentas: [Python](https://www.python.org/), [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/),[ArquivosCSV](https://rockcontent.com/br/blog/csv/)
 
 ---
 
@@ -26,3 +26,11 @@ pip install python
 pip install matplotlib
 
 ```
+
+### Execute o arquivo `main.py`
+```
+python main.py
+
+```
+
+
