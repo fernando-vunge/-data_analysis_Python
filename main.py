@@ -12,7 +12,7 @@ for i in range(0, len(apps)):
 column(menu)
 
 
-app_choice = int(input("Escolha: "))
+app_choice = 1#int(input("Escolha: "))
 
 if (app_choice >= 1) or (app_choice <= len(apps)):
     apps[app_choice - 1].main()
