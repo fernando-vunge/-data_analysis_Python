@@ -4,7 +4,7 @@ Esse repositorio serve como referencia da biblioteca[Pandas](https://pandas.pyda
 
 
 
-> Autor: [Fernando Vunge]()
+> Autor: [Fernando Vunge](https://web.facebook.com/fernando.vunge.75)
 Ferramentas: [Python](https://www.python.org/), [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/),[ArquivosCSV](https://rockcontent.com/br/blog/csv/)
 
 ---
