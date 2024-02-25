@@ -12,5 +12,6 @@ def main():
     air_quality = pand.read_csv(AIR_QUALITY_CSV_PATH, index_col=0, parse_dates=True)
     
     print(air_quality.head())
-    air_quality['station_paris'].plot()
+
+    air_quality.plot.area(figsize=(12, 4), subplots=True)
     plit.show()
