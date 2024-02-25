@@ -2,7 +2,7 @@ import pandas as pand
 import matplotlib.pyplot as plit
 import os
 
-NAME = "App Air Quality NO2"
+NAME = "App Titanic"
 TITANIC_CSV_PATH = os.path.join(os.path.dirname(__file__), '..' ,'datasets', 'titanic.csv')
 
 def get_name():
