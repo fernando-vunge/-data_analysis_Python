@@ -7,7 +7,7 @@ tdata = pand.read_csv('datasets/titanic_dataset.csv')
 ln()
 print(tdata.iloc[0:9, 3:5])
 ln()
-print(tdata.loc[(tdata['Age'] < 18) & tdata['Sex'].isin(['male']), ['Name','Sex','Age']])
+print(tdata.loc[(tdata['Age'] < 18) & tdata['Sex'].isin(['male']), ['Name','Sex','Age-']])
 ln()
 
 
