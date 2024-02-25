@@ -9,7 +9,7 @@ def get_name():
     return NAME
 
 def main():
-    titanic = pand.read_csv(TITANIC_CSV_PATH, index_col=0, parse_dates=True)
+    titanic = pand.read_csv(TITANIC_CSV_PATH, index_col=0)
     
     titanic.plot.area(figsize=(12, 4), subplots=True)
     plit.show()
